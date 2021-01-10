@@ -9,6 +9,5 @@ SVM: Best for recall but worst for precision. This may be due to it not taking i
 
 MLP: Able to learn trends in the data leadning to results the exact same as SVM. This does however depend on the fit of the model as overfitting would increase the precision but decrease the recall but this can be adjusted when fitting the model.
 
-
-
+Conclusion: The best case would be high recall over precision as alerting the customer of a, most likely, fraudulent transaction is preferable over being correct about fraudulent transactions but missing a larger percentage of them. From this the SVM and MLP come out on top with both having equivalent precision and highest recall. However SVM is more computationally inexpensive so is preferable for future use. However this is effectivley a small data set due to the small number of fraudulent transactions
 
